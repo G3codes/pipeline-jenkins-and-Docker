@@ -2,7 +2,7 @@
 FROM centos:7 
 #we the :7 to indicate we want centos 7 otherwise it would have pulled the latest image of centos
 LABEL description="containerize apache webapp"
-LABEL maintainer="G3codes"
+LABEL maintainer="G3codes love pipeline on jenkins"
 
 RUN yum -y update 
 # run yum update 
